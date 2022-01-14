@@ -1,4 +1,49 @@
 body {
   text-align: center;
-  background-color: white;
+  background-color: #ccb494;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #795644;
+}
+
+li {
+  float: left;
+}
+
+.nav li {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+li a:hover:not(.nav) {
+  background-color: #6b3e2e;
+  padding: 20px 20px;
+}
+
+#bd {
+  color: #6b3e2e;
+  font-family: "Mochiy Pop P One";
+  font-size: 70px;
+  text-shadow: 5px 5px 5px white;
+}
+
+.sugar {
+  border-radius: 100px;
+}
+
+#intro {
+  color: #a1785c;
+  font-size: 20px;
+  font-family: "Abel";
+  border-style: solid;
+  padding: 10px;
+  width: 600px;
+  border-color: #ccb494;
+  margin: auto;
 }
