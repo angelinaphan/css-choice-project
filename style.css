@@ -204,11 +204,13 @@ a:link, a:visited {
 
 .dropbtn {
   background-color: #6b3e2e;
-  color: white;
+  color: #ccb494;
   padding: 25px;
-  font-size: 16px;
+  font-size: 20px;
   border: none;
   cursor: pointer;
+  font-family: "EB Garamond";
+  border-radius: 20px;
 }
 
 .dropdown {
@@ -240,4 +242,8 @@ a:link, a:visited {
 
 .dropdown:hover .dropbtn {
   background-color: #6b3e2e;
+}
+
+.img {
+  border-radius: 50px;
 }
